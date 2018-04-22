@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.Pane?>
+<Pane prefHeight="526.0" prefWidth="531.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="NoiseGenerator.NoiseGenerator">
+   <children>
+      <Canvas fx:id="canvas" height="450.0" width="400.0" />
+      <Label layoutX="370.0" layoutY="47.0" style="-fx-text-fill: white;" text="f(x)=sin(x)" />
+      <Label layoutX="370.0" layoutY="159.0" style="-fx-text-fill: green;" text="f(x)=sin(x)+amp" />
+      <Label layoutX="370.0" layoutY="256.0" style="-fx-text-fill: red;" text="Усредняющий фильтр" />
+      <Label layoutX="372.0" layoutY="361.0" style="-fx-text-fill: blue;" text="Медианный фильтр" />
+
+      <Label layoutX="370.0" layoutY="104.0" style="-fx-text-fill: white;" text="PSNP" />
+      <Label layoutX="370.0" layoutY="76.0" style="-fx-text-fill: white;" text="MSE" />
+      <Label layoutX="370.0" layoutY="182.0" style="-fx-text-fill: white;" text="MSE" />
+      <Label layoutX="370.0" layoutY="210.0" style="-fx-text-fill: white;" text="PSNP" />
+      <Label layoutX="370.0" layoutY="279.0" style="-fx-text-fill: white;" text="MSE" />
+      <Label layoutX="370.0" layoutY="307.0" style="-fx-text-fill: white;" text="PSNP" />
+      <Label layoutX="370.0" layoutY="387.0" style="-fx-text-fill: white;" text="MSE" />
+      <Label layoutX="370.0" layoutY="415.0" style="-fx-text-fill: white;" text="PSNP" />
+      <Label layoutX="370.0" layoutY="128.0" style="-fx-text-fill: white;" text="StdDev" />
+      <Label layoutX="370.0" layoutY="233.0" style="-fx-text-fill: white;" text="StdDev" />
+      <Label layoutX="370.0" layoutY="331.0" style="-fx-text-fill: white;" text="StdDev" />
+      <Label layoutX="370.0" layoutY="444.0" style="-fx-text-fill: white;" text="StdDev" />
+      <Label layoutX="168.0" layoutY="483.0" text="Speed" textFill="WHITE" />
+      <Slider fx:id="slider" layoutX="232.0" layoutY="484.0" max="1" min="0.0" />
+   </children>
+</Pane>
