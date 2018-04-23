@@ -1,7 +1,7 @@
 # NoiseGenerator
 
-Copyright (c) 2018, Bukatkin Witalij
+Copyright (c) 2018, Witalij Bukatkin
+All rights reserved.
 
 Программа генерирует шумы на графике sin(x)
-
 Применяет усредняющий и медианные фильтры
